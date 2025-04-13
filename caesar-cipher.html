@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+		<title>Caesar Cipher</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1>Caesar Cipher</h1>
+		<table>
+			<tr>
+				<td><label for="input">Input:</label></td>
+				<td><input type="text" id="input" required /></td>
+			</tr>
+			<tr>
+				<td><label for="shift">Shift letters:</label></td>
+				<td><input type="number" id="shift" name="shift" required /></td>
+			</tr>
+			<tr>
+				<td id="button" colspan="2">
+					<button type="submit" id="encrypt">Encrypt</button>
+					<button type="reset" id="clear">Clear</button>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="output">Output:</label></td>
+				<td><input type="text" id="output" name="output" readonly /></td>
+			</tr>
+		</table>
+		<script src="script.js"></script>
+	</body>
+</html>
